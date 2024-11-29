@@ -1,6 +1,10 @@
 ![Typing Animation](https://readme-typing-svg.herokuapp.com/?color=AF69EF&size=35&center=true&vCenter=true&width=1000&lines=Portfolio+Website+-+v2.1&font=JetBrains+Mono)
 
 
+## Greetings
+- I like [this Portfolio template](https://github.com/soumyajit4419/Portfolio) very much.
+
+
 ## 📦 Basic Needs
 
 - [![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
