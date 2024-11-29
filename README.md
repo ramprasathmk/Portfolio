@@ -19,11 +19,11 @@
 - [![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)](https://vercel.com/)
 
 
+## </> Contributing
+
+Feel free to modify this template to better suit your project’s specific needs. If you need further customization or have any questions, let me know!
+
+
 ## 🤝 Show your support
 
 Thanks for visiting my portfolio! Feel free to explore [my repositories](https://github.com/ramprasathmk?tab=repositories) and ❤️ connect with me!
-
-<!-- [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?&logo=buy-me-a-coffee&logoColor=black)](#) -->
-
-
-Feel free to modify this template to better suit your project’s specific needs. If you need further customization or have any questions, let me know!
