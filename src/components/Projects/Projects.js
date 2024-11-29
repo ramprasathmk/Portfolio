@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import keylogger from "../../Assets/Projects/keylogger.png";
+import faceDetection from "../../Assets/Projects/face-detection.png";
+import poetApp from "../../Assets/Projects/poet-app.png";
+import musicPlayer from "../../Assets/Projects/music-player.png";
+import softwareManagementSystem from "../../Assets/Projects/spms-app.png";
+import microblogApp from "../../Assets/Projects/microblogging-app.jpg";
 
 function Projects() {
   return (
@@ -23,68 +23,61 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={musicPlayer}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Simple Python Music player"
+              description="In this article, you will see how to build a simple yet functional music player using two powerful Python libraries: Tkinter and Pygame. Tkinter will help us create the graphical user interface (GUI), while Pygame will handle the music playback."
+              ghLink="https://github.com/ramprasathmk/Simple-Python-Music-Player"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={faceDetection}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Automatic Attendance System using Face Recognition"
+              description="An Automatic Attendance System using Face Recognition is a new way for companies to keep track of when their employees come to work and when they leave."
+              ghLink="https://github.com/ramprasathmk/Automatic-Attendance-System-using-Face-Recognition"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={softwareManagementSystem}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Software Personnel Management System"
+              description="The Software Personnel Management System is a software, that helps your employees to give their best efforts every day to achieve the goals of your organization. It guides and manages employees efforts in the right direction. It also securely stores and manages personal and other work-related details for your employees."
+              ghLink="https://github.com/ramprasathmk/Software-Personnel-Management-System"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={keylogger}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Keylogger"
+              description="Keylogger is a Python-based project designed to capture and log keystrokes. It demonstrates how key-logging can be used for various purposes, such as monitoring typing activity for research, troubleshooting keyboard issues, or learning how keyloggers work for cybersecurity education."
+              ghLink="https://github.com/ramprasathmk/keylogger"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={microblogApp}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Microblog App"
+              description="A microblog app is a mobile application that allows users to share short, concise messages or updates with others, typically limited to a specific character count, enabling quick and frequent communication on a variety of topics, similar to platforms like Twitter where users post 'tweets'S to share news, thoughts, and opinions with their followers"
+              ghLink="https://github.com/ramprasathmk/microblog-app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={poetApp}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Poet App"
+              description="A 'Poet app' is designed to assist users in writing poetry, typically offering features like rhyme suggestion, thesaurus access, different poetic form structures, and a user-friendly interface to compose and edit poems on the go.  It is a simple web application that allows users to post, edit, and delete quotes. The application is built using Node.js and MongoDB"
+              ghLink="https://github.com/ramprasathmk/poet-app"
             />
           </Col>
         </Row>
