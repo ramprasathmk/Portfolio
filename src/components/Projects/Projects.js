@@ -78,6 +78,7 @@ function Projects() {
               title="Poet App"
               description="A 'Poet app' is designed to assist users in writing poetry, typically offering features like rhyme suggestion, thesaurus access, different poetic form structures, and a user-friendly interface to compose and edit poems on the go.  It is a simple web application that allows users to post, edit, and delete quotes. The application is built using Node.js and MongoDB"
               ghLink="https://github.com/ramprasathmk/poet-app"
+              demoLink="https://poet-app.onrender.com/"
             />
           </Col>
         </Row>
