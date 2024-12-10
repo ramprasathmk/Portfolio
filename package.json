@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.2",
   "private": true,
-  "description": "A simple  and responsive portfolio app.",
+  "description": "A dynamic Portfolio built with React.js and hosted in GitHub Pages :)",
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
