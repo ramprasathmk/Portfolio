@@ -26,4 +26,4 @@ Feel free to modify this template to better suit your project’s specific needs
 
 ## 🤝 Show your support
 
-Thanks for visiting my portfolio! Feel free to explore [my repositories](https://github.com/ramprasathmk?tab=repositories) and ❤️ connect with me!
+Thanks for visiting [my portfolio](https://ramprasathmk.github.io/Portfolio/)! Feel free to explore [my repositories](https://github.com/ramprasathmk?tab=repositories) and ❤️ connect with me!
