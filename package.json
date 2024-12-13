@@ -4,6 +4,7 @@
   "private": true,
   "description": "A dynamic Portfolio built with React.js and hosted in GitHub Pages :)",
   "dependencies": {
+    "@babel/preset-react": "^7.26.3",
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
