@@ -2,6 +2,7 @@
 
 # IDE directory
 .vscode
+.idea
 
 # dependencies
 /node_modules
