@@ -7,7 +7,7 @@ import faceDetection from "../../Assets/Projects/face-detection.png";
 import poetApp from "../../Assets/Projects/poet-app.png";
 import musicPlayer from "../../Assets/Projects/music-player.png";
 import softwareManagementSystem from "../../Assets/Projects/spms-app.png";
-import microblogApp from "../../Assets/Projects/microblogging-app.jpg";
+import MicroBloggingApp from "../../Assets/Projects/microblogging-app.jpg";
 
 function Projects() {
   return (
@@ -63,7 +63,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={microblogApp}
+              imgPath={MicroBloggingApp}
               isBlog={false}
               title="Microblog App"
               description="A microblog app is a mobile application that allows users to share short, concise messages or updates with others, typically limited to a specific character count, enabling quick and frequent communication on a variety of topics, similar to platforms like Twitter where users post 'tweets'S to share news, thoughts, and opinions with their followers"
