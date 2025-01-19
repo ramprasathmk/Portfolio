@@ -19,7 +19,6 @@ import {
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const website = "https://ramprasathmk.github.io/Portfolio"
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -31,6 +30,7 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
+  // noinspection JSValidateTypes
   return (
     <Navbar
       expanded={expand}
@@ -39,7 +39,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href={website} className="d-flex">
+        <Navbar.Brand as={Link} to="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
