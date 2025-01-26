@@ -2,14 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import keylogger from "../../Assets/Projects/keylogger.png";
 import faceDetection from "../../Assets/Projects/face-detection.png";
-import poetApp from "../../Assets/Projects/poet-app.png";
 import musicPlayer from "../../Assets/Projects/music-player.png";
 import softwareManagementSystem from "../../Assets/Projects/spms-app.png";
 import MicroBloggingApp from "../../Assets/Projects/microblogging-app.jpg";
 
 function Projects() {
+
+  const keylogger = "https://t3.ftcdn.net/jpg/10/20/25/22/360_F_1020252214_jlf1xkZ2ZH75vSWwAFINeuU6iT4sVUJ0.jpg";
+  const poetApp = "https://www.shayandblue.com/cdn/shop/articles/poetry.jpg?v=1612645563";
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -66,7 +68,7 @@ function Projects() {
               imgPath={MicroBloggingApp}
               isBlog={false}
               title="Microblog App"
-              description="A microblog app is a mobile application that allows users to share short, concise messages or updates with others, typically limited to a specific character count, enabling quick and frequent communication on a variety of topics, similar to platforms like Twitter where users post 'tweets'S to share news, thoughts, and opinions with their followers"
+              description="A microblog app is a mobile application that allows users to share short, concise messages or updates with others, typically limited to a specific character count, enabling quick and frequent communication on a variety of topics, similar to platforms like Twitter where users post 'tweets'S to share news, thoughts, and opinions with their followers."
               ghLink="https://github.com/ramprasathmk/microblog-app"
             />
           </Col>
@@ -76,9 +78,8 @@ function Projects() {
               imgPath={poetApp}
               isBlog={false}
               title="Poet App"
-              description="A 'Poet app' is designed to assist users in writing poetry, typically offering features like rhyme suggestion, thesaurus access, different poetic form structures, and a user-friendly interface to compose and edit poems on the go.  It is a simple web application that allows users to post, edit, and delete quotes. The application is built using Node.js and MongoDB"
+              description="A 'Poet app' is designed to assist users in writing poetry, typically offering features like rhyme suggestion, thesaurus access, different poetic form structures, and a user-friendly interface to compose and edit poems on the go.  It is a simple web application that allows users to post, edit, and delete quotes. The application is built using Node.js and MongoDB."
               ghLink="https://github.com/ramprasathmk/poet-app"
-              demoLink="https://poet-app.onrender.com/"
             />
           </Col>
         </Row>
