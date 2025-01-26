@@ -71,4 +71,5 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 ---
 
-Thank you for visiting the [portfolio](https://ramprasathmk.github.io/Portfolio/)! Feel free to explore the [repositories](https://github.com/ramprasathmk?tab=repositories) and connect.
+## ✨ Show your support
+Give a ⭐ if you like this repository!
