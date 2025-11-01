@@ -9,7 +9,6 @@ This is a dynamic and responsive portfolio website built using React.js and host
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
 - [Contributing](#contributing)
 
 [//]: # (- [License]&#40;#license&#41;)
@@ -26,39 +25,15 @@ This portfolio showcases various projects and skills, providing an interactive i
 
 ## Technologies Used
 
-- **React.js**: A JavaScript library for building user interfaces.
-- **Bootstrap**: A CSS framework for responsive design.
-- **GitHub Pages**: Hosting platform for static websites.
-
-## Getting Started
-
-To set up the project locally, follow these steps:
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/ramprasathmk/Portfolio.git
-   ```
-
-2. **Navigate to the project directory**:
-
-   ```bash
-   cd Portfolio
-   ```
-
-3. **Install the dependencies**:
-
-   ```bash
-   npm install
-   ```
-
-4. **Start the development server**:
-
-   ```bash
-   npm start
-   ```
-
-The application will run locally at `http://localhost:3000`.
+<div align="center">
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" title="GitHub"/></code>
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bootstrap.png" alt="Bootstrap" title="Bootstrap"/></code>
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/></code>
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" alt="React" title="React"/></code>
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/npm.png" alt="npm" title="npm"/></code>
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/node_js.png" alt="Node.js" title="Node.js"/></code>
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jest.png" alt="Jest" title="Jest"/></code>
+</div>
 
 ## Contributing
 
@@ -68,8 +43,6 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 [//]: # ()
 [//]: # (This project is licensed under the MIT License. See the [LICENSE]&#40;LICENSE&#41; file for details.)
-
----
 
 ## ✨ Show your support
 Give a ⭐ if you like this repository!
