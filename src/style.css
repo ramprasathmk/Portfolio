@@ -12,6 +12,8 @@ html {
   );
 
   --imp-text-color: #c770f0;
+
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .purple {
