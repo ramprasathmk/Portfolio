@@ -6,10 +6,14 @@ This is a dynamic and responsive portfolio website built using React.js and host
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
+- [Portfolio](#portfolio)
+	- [Table of Contents](#table-of-contents)
+	- [Introduction](#introduction)
+	- [Features](#features)
+	- [Technologies Used](#technologies-used)
+	- [How it works?](#how-it-works)
+	- [Contributing](#contributing)
+	- [✨ Show your support](#-show-your-support)
 
 [//]: # (- [License]&#40;#license&#41;)
 
@@ -33,6 +37,12 @@ This portfolio showcases various projects and skills, providing an interactive i
 	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/npm.png" alt="npm" title="npm"/></code>
 	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/node_js.png" alt="Node.js" title="Node.js"/></code>
 </div>
+
+## How it works?
+
+- Installation: `npm install`
+- In your root dir open `Terminal` and type the command `npm start`.
+- After that, open the `http://localhost:3000` link in your favorite browser to see the output.
 
 ## Contributing
 
