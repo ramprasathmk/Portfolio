@@ -40,9 +40,31 @@ This portfolio showcases various projects and skills, providing an interactive i
 
 ## How it works?
 
-- Installation: `npm install`
-- In your root dir open `Terminal` and type the command `npm start`.
-- After that, open the `http://localhost:3000` link in your favorite browser to see the output.
+- **Clone the repo:**
+  
+  ```bash
+  git clone https://github.com/ramprasathmk/Portfolio.git
+  ```
+
+- **Change to Portfolio directory:**
+  ```bash
+  cd Portfolio/
+  ```
+
+- **Install packages:**
+  ```bash
+  pnpm ci
+  ```
+
+- **Start the local server:**
+  ```bash
+  pnpm start
+  ```
+
+- **Open link in browser:**
+  ```bash
+  http://localhost:3000
+  ```
 
 ## Contributing
 
