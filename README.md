@@ -15,8 +15,6 @@ This is a dynamic and responsive portfolio website built using React.js and host
 	- [Contributing](#contributing)
 	- [Show your support](#show-your-support)
 
-[//]: # (- [License](LICENSE))
-
 ## Introduction
 
 This portfolio showcases various projects and skills, providing an interactive interface for visitors to learn more about the developer's work and experiences.
@@ -69,11 +67,6 @@ This portfolio showcases various projects and skills, providing an interactive i
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
-
-[//]: # (## License)
-
-[//]: # ()
-[//]: # (This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.)
 
 ## Show your support
 Give a ⭐ if you like this repository!
