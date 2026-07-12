@@ -4,6 +4,9 @@ import { ImPointRight } from "react-icons/im";
 import { Link } from 'react-router-dom';
 
 function AboutCard() {
+  const famousQuote = "A myth remains a shadow, until it becomes your story!";
+  const clgLink = "https://aamec.edu.in";
+
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -12,7 +15,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple"> Ramprasath M K </span>
             from <span className="purple"> Tamil Nadu, India.</span>
             <br />
-            I'm currently pursuing my Bachelor's in Information Technology at <Link className='purple' to="https://aamec.edu.in">AAMEC</Link>.
+            I'm currently pursuing my Bachelor's in Information Technology at <Link className='purple' to={clgLink}>AAMEC</Link>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -27,7 +30,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "A Myth is a Myth until you experiencing it!"{" "}
+            {famousQuote}{" "}
           </p>
           <footer className="blockquote-footer">Ramprasath M K</footer>
         </blockquote>
