@@ -8,10 +8,13 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiMsqlServer,
+  DiDotnet,
 } from "react-icons/di";
 import {
   SiMysql,
   SiExpress,
+  SiCsharp,
 } from "react-icons/si";
 
 function Techstack() {
@@ -30,10 +33,10 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
@@ -42,7 +45,16 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiDotnet />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMsqlServer />
       </Col>
     </Row>
   );

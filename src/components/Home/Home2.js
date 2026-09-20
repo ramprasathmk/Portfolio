@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Python and Javascript. </b>
+                <b className="purple"> Java and C#. </b>
               </i>
               <br />
               <br />
@@ -44,7 +44,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js, ASP.NET and Java </b>
               </i>
             </p>
           </Col>
@@ -108,4 +108,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
