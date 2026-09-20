@@ -15,7 +15,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple"> Ramprasath M K </span>
             from <span className="purple"> Tamil Nadu, India.</span>
             <br />
-            I'm currently pursuing my Bachelor's in Information Technology at <Link className='purple' to={clgLink}>AAMEC</Link>.
+            I've completed my Bachelor's in Information Technology at <Link className='purple' to={clgLink}>AAMEC</Link>.
+            <br />
+            I'm a passionate Full Stack Web Developer and a competitive programmer. I love to explore new technologies and apply them in my projects.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -26,6 +28,12 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Listening to Music
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Plantation
             </li>
           </ul>
 
